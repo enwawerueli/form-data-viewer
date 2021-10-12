@@ -1,0 +1,35 @@
+.vfd .row {
+  padding: 8px 0;
+  margin: 0;
+}
+
+.vfd .row:nth-child(odd) {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.vfd .col.signature > div,
+.vfd .col.fileinfo > div,
+.vfd .objectview > div {
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.vfd .col.fileinfo a {
+  color: rgba(0, 150, 255, 0.75);
+}
+
+.vfd .card {
+  margin: 8px;
+}
+
+.vfd .card-header {
+  font-weight: 600;
+}
+
+.vfd .card-body {
+  padding: 0;
+}
+
+.vfd .datagrid-item {
+  margin: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
