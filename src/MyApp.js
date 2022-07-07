@@ -20,7 +20,7 @@ export default function MyApp() {
     <ViewFormData
       schema={schema}
       submission={submission}
-      options={{ collapse: true }}
+      options={{ collapse: false }}
     />
   );
 }
